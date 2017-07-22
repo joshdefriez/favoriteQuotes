@@ -1,0 +1,158 @@
+
+//This object is organized by author, book, and date. The first tier of keys are Authors' names and the value is a nested object that
+//contains quotes. The keys of the nested object are numbers, and the values of the nested object are an array containing
+//the date, source, and text of the quote.
+//It's designed this way so that I can easily pull the quote, author, and source to display on the web app.
+
+{
+  
+  "Friedrich Nietzsche": {
+    "1": ["The Gay Science", "1882", "Every philosophy that ranks peace above war, every ethic with a negative definition of happiness, every metaphysics and physics that knows some finale, some final state of some sort, every predominantly aesthetic or religious craving for some Apart, Beyond, Outside, Above, permits the question whether it was not sickness that inspired the philosopher. The unconscious disguise of physiological needs under the cloaks of the objective, ideal, purely spiritual goes to frightening lengths–and often I have asked myself whether, taking a large view, philosophy has not been merely an interpretation of the body and a misunderstanding of the body."],
+    "2": ["The Gay Science", "1882", "…constantly, we have to give birth to our thoughts out of our pain and, like mothers, endow them with all we have of blood, heart, fire, pleasure, passion, agony, conscience, fate, and catastrophe."],
+    "3": ["The Gay Science", "1882", "One should have more respect for the bashfulness with which nature has hidden behind riddles and iridescent uncertainties. Perhaps truth is a woman who has reasons for not letting us see her reasons?"],
+    "4": ["The Gay Science", "1882", "Narrow souls I cannot abide/ There's almost no good or evil inside."],
+    "5": ["The Gay Science", "1882", "Who once wore chains, will always think/ That he is followed by their clink."],
+    "6": ["The Gay Science", "1882", "Perhaps laughter will then have formed an alliance with wisdom..."],
+    "7": ["On Truth and Lying in a Non-Moral Sense", "1873", "Human beings do not so much flee from being tricked as from being harmed by being tricked. Even on this level they do not hate deception but rather the damaging, inimical consequences of certain species of deception. Truth, too, is only desired by human beings in a similarly limited sense. They desire the pleasant, life-preserving consequences of truth; they are indifferent to pure knowledge if it has no consequences, but they are actually hostile towards truths which may be harmful and destructive."],
+    "8": ["On Truth and Lying in a Non-Moral Sense", "1873", "What, then, is truth? A mobile army of metaphors, metonymies, anthropomorphisms, in short a sum of human relations which have been subjected to poetic and rhetorical intensification, translation, and decoration, and which, after they have been in use for a long time, strike people as firmly established, canonical, and binding; truths are illusions of which we have forgotten that they are illusions, metaphors which have become worn by frequent use and have lost all sensuous vigour, coins which, having lost their stamp, are now regarded as metal and no longer as coins."],
+    "9": ["On Truth and Lying in a Non-Moral Sense", "1873", "Actually the waking human being is only clear about the fact that he is awake thanks to the rigid and regular web of concepts, and for that reason he sometimes comes to believe that he is dreaming if once that web of concepts is torn apart by art."],
+    "10": ["The Birth of Tragedy", "1872", "Art saves him, and through art life saves him – for itself."],
+    "11": ["The Birth of Tragedy", "1872", "Perhaps there is a kingdom of wisdom from which the logician is banished? Perhaps art may even be a necessary correlative and supplement of science?"]
+  },
+  
+  "James Baldwin": {
+    "1": ["Giovanni's Room", "1956", "People can't, unhappily, invent their mooring posts, their lovers and their friends, anymore than they can invent their parents. Life gives these and also takes them away and the great difficulty is to say Yes to life."],
+    "2": ["Giovanni's Room", "1956", "Perhaps home is not a place but simply an irrevocable condition."],
+    "3": ["Giovanni's Room", "1956", "There are so many ways of being despicable it quite makes one’s head spin. But the way to be really despicable is to be contemptuous of other people’s pain."],
+    "4": ["Giovanni's Room", "1956", "You don’t have a home until you leave it and then, when you have left it, you never can go back."],
+    "5": ["Giovanni's Room", "1956", "Perhaps, as we say in America, I wanted to find myself. This is an interesting phrase, not current as far as I know in the language of any other people, which certainly does not mean what it says but betrays a nagging suspicion that something has been misplaced. I think now that if I had any intimation that the self I was going to find would turn out to be only the same self from which I had spent so much time in flight, I would have stayed at home."],
+  },
+  
+  "Mary Oliver": {
+    "1": ["Wild Geese: Selected Poems", "1993", "You must not ever stop being whimsical. And you must not, ever, give anyone else the responsibility for your life."],
+  },
+  
+  "Georg Simmel": {
+    "1": ["The Metropolis and Mental Life", "1903", "Man is a differentiating creature. His mind is stimulated by the difference between a momentary impression and the one which preceded it."],
+    "2": ["The Metropolis and Mental Life", "1903", "Money economy and the dominance of the intellect are intrinsically connected."],
+    "3": ["The Metropolis and Mental Life", "1903", "Punctuality, calculability, exactness are forced upon life by the complexity and extension of metropolitan existence and are not only most intimately connected with its money economy and intellectualistic character. These traits must also color the contents of life and favor the exclusion of those irrational, instinctive, sovereign traits and impulses which aim at determining the mode of life from within, instead of receiving the general and precisely schematized form of life from without."],
+    "4": ["The Metropolis and Mental Life", "1903", "What appears in the metropolitan style of life directly as dissociation is in reality one of its elemental forms of socialization."],
+    "5": ["The Metropolis and Mental Life", "1903", "Since such forces of life have grown into the roots and into the crown of the whole of the historical life in which we, in our fleeting existence, as a cell, belong only as a part, it is not our task either to accuse or to pardon, but only to understand."],
+  },
+  
+  "Barbara Kingsolver": {
+    "1": ["The Poisonwood Bible", "1998", "Nobody had ever planted these flowers, I felt sure, nor harvested them either; these were works that the Lord has gone ahead and finished on his own. He must have lacked faith in mankind's followthrough capabilities, on the day he created flowers."],
+    "2": ["The Poisonwood Bible", "1998", "Everything you're sure is right can be wrong in another place."],
+    "3": ["The Poisonwood Bible", "1998", "Don’t try to make life a mathematics problem with yourself in the center and everything coming out equal. When you’re good, bad things can still happen. And if you’re bad, you can still be lucky."],
+    "4": ["The Poisonwood Bible", "1998", "Listen. Slide the weight from your shoulders and move forward. You are afraid you might forget, but you never will. You will forgive and remember."],
+    "5": ["The Poisonwood Bible", "1998", "I attempted briefly to consecrate myself in the public library, believing every crack in my soul could be chinked with a book."],
+    "6": ["The Poisonwood Bible", "1998", "Misunderstanding is my cornerstone. It's everyone's, come to think of it. Illusions mistaken for truth are the pavement under our feet."]
+  },
+  
+  "Toni Morrison": {
+    "1": ["The Bluest Eye", "1970", "Love is never any better than the lover. Wicked people love wickedly, violent people love violently, weak people love weakly, stupid people love stupidly, but the love a free man is never safe."],
+    "2": ["The Bluest Eye", "1970", "Along with the idea of romantic love, she was introduced to another--physical beauty. Probably the most destructive ideas in the history of human thought. Both originated in envy, thrived in insecurity, and ended in disillusion."],
+    "3": ["The Bluest Eye", "1970", "Anger is better. There is a sense of being in anger. A reality and presence. An awareness of worth. It is a lovely surging."],
+    "4": ["The Bluest Eye", "1970", "All of us--all who knew her--felt so wholesome after we cleaned ourselves on her. We were so beautiful when we stood astride her ugliness. Her simplicity decorated us, her guilt sanctified us, her pain made us glow with health, her awkwardness made us think we had a sense of humor. Her inarticulateness made us believe we were eloquent. Her poverty kept us generous. Even her waking dreams we used--to silence our own nightmares."]
+  },
+  
+  "Soren Kierkegaard": {
+    "1": ["Either/Or", "1843", "If I were to wish for anything, I should not wish for wealth and power, but for the passionate sense of the potential, for the eye which, ever young and ardent, sees the possible. Pleasure disappoints, possibility never. And what wine is so sparkling, what so fragrant, what so intoxicating, as possibility!"],
+    "2": ["Either/Or", "1843", "Let others complain that the age is wicked; my complaint is that it is paltry; for it lacks passion. Men's thoughts are thin and flimsy like lace, they are themselves pitiable like the lacemakers. The thoughts of their hearts are too paltry to be sinful. For a worm it might be regarded as a sin to harbor such thoughts, but not for a being made in the image of God. Their lusts are dull and sluggish, their passions sleepy...This is the reason my soul always turns back to the Old Testament and to Shakespeare. I feel that those who speak there are at least human beings: they hate, they love, they murder their enemies, and curse their descendants throughout all generations, they sin."],
+    "3": ["Either/Or", "1843", "Language has time as its element; all other media have space as their element."],
+  },
+  
+  "Bertrand Russell": {
+    "1": ["A History of Western Philosophy", "1945", "I think this shows a misconception of the scientific attitude: it is not what the man of science believes that distinguishes him, but how and why he believes it. His beliefs are tentative, not dogmatic; they are based on evidence, not on authority or intuition."],
+  },
+  
+  "Edmund Husserl": {
+    "1": ["The Crisis of European Sciences and Transcendental Phenomenology", "1936", "Merely fact-minded sciences make merely fact-minded people."],
+    "2": ["The Crisis of European Sciences and Transcendental Phenomenology", "1936", "The true struggles of our time, the only ones which are significant, are struggles between humanity which has already collapsed and humanity which still has roots but is struggling to keep them or find new ones."],
+  },
+  
+  "Sigmund Freud": {
+    "1": ["The Future of an Illusion", "1927", "To put it briefly, there are two widespread human characteristics which are responsible for the fact that the regulations of civilization can only be maintained by a certain degree of coercion--namely, that men are not spontaneously fond of work and that arguments are of no avail against their passions."],
+    "2": ["The Future of an Illusion", "1927", "It is in keeping with the course of human development that external coercion gradually becomes internalized; for a special mental agency, man's super-ego, takes it over and includes it among its commandments."],
+    "3": ["The Future of an Illusion", "1927", "And thus a store of ideas is created, born from man's need to make his helplessness tolerable and built up from the material of memories of the helplessness of his own childhood and the childhood of the human race."],
+    "4": ["The Future of an Illusion", "1927", "The riddles of the universe reveal themselves only slowly to our investigation; there are many questions to which science today can give no answer. But scientific work is the only road which can lead us to a knowledge of reality outside ourselves. It is once again merely an illusion to expect anything from intuition and introspection; they can give us nothing but particulars about our own mental life, which are hard to interpret, never any information about the questions which religious doctrine finds it so easy to answer."],
+    "5": ["The Future of an Illusion", "1927", "No, our science is no illusion. But an illusion it would be to suppose that what science cannot give us we can get elsewhere."],
+  },
+  
+  "Dipesh Chakrabarty": {
+    "1": ["The Climate of History: Four Theses", "2009", "It is clear that different academic disciplines position their practitioners differently with regard to the question of how to view the human being. All disciplines have to create their objects of study. If medicine or biology reduces the human to a certain specific understanding of him or her, humanist historians often do not realize that the protagonists of their stories––persons––are reductions, too. Absent personhood, there is no human subject of history…An object of critical importance to humanists of all traditions, personhood is nevertheless no less of a reduction of or an abstraction from the embodied and whole human being than, say, the human skeleton discussed in an anatomy class."]
+  },
+  
+  "Erich Fromm": {
+    "1": ["The Art of Loving", "1956", "And maybe, here lies the answer to the question of why people in our culture try so rarely to learn this art, in spite of their obvious failures: in spite of the deep-seated craving for love, almost everything else is considered to be more important than love: success, prestige, money, power--almost all our energy is used for the learning of how to achieve these aims, and almost none to learn the art of loving."],
+    "2": ["The Art of Loving", "1956", "Love is the active concern for the life and growth of that which we love."],
+  },
+  
+  "Haruki Murakami": {
+    "1": ["Blind Willow, Sleeping Woman", "2006", "No matter what they wish for, no matter how far they go, people can never be anything but themselves. That's all."],
+    "2": ["Blind Willow, Sleeping Woman", "2006", "It was as if my entire life revolved around trying to judge the appropriate point in a conversation to say goodbye."]
+  },
+
+  "John Berger": {
+    "1": ["Ways of Seeing", "1972", "If we can see the present clearly enough, we shall ask the right questions of the past."],
+    "2": ["Ways of Seeing", "1972", "The bogus religiosity which now surrounds original works of art, and which is ultimately dependent upon their market value, has become the substitute for what paintings lost when the camera made them reproducible. Its function is nostalgic. It is the final empty claim for the continuing values of an oligarchic, undemocratic culture. If the image is no longer unique and exclusive, the art object, the thing, must be made mysteriously so."]
+  },
+
+  "W.E.B. DeBois": {
+    "1": ["The Souls of Black Folk", "1903", "My log school house was gone. In its place stood Progress; and Progress, I understand, is necessarily ugly."]
+  },
+
+  "Oscar Wilde": {
+    "1": ["The Picture of Dorian Gray", "1890", "Humanity takes itself too seriously. It is the world's original sin. If the caveman had known how to laugh, history would have been different."],
+    "2": ["The Picture of Dorian Gray", "1890", "The books that the world calls immoral are books that show the world its own shame."],
+    "3": ["The Picture of Dorian Gray", "1890", "To define is to limit."],
+    "4": ["The Picture of Dorian Gray", "1890", "Nowadays people know the price of everything and the value of nothing."]
+          },
+  "Rainer Maria Rilke": {
+    "1": ["Book of Hours: Love Poems to God", "1905", "No feeling is final."],
+    "2": ["Letters to a Young Poet", "1929", "Perhaps everything that frightens us is, in its deepest essence, something helpless that wants our love."],
+    "3": ["Letters to a Young Poet", "1929", "Therefore, dear Sir, love your solitude and try to sing out with the pain it causes you. For those who are near you are far away... and this shows that the space around you is beginning to grow vast.... be happy about your growth, in which of course you can't take anyone with you, and be gentle with those who stay behind; be confident and calm in front of them and don't torment them with your doubts and don't frighten them with your faith or joy, which they wouldn't be able to comprehend. Seek out some simple and true feeling of what you have in common with them, which doesn't necessarily have to alter when you yourself change again and again; when you see them, love life in a form that is not your own and be indulgent toward those who are growing old, who are afraid of the aloneness that you trust.... and don't expect any understanding; but believe in a love that is being stored up for you like an inheritance, and have faith that in this love there is a strength and a blessing so large that you can travel as far as you wish without having to step outside it."],
+    "4": ["Letters to a Young Poet", "1929", "Why do you want to shut out of your life any uneasiness, any misery, any depression, since after all you don't know what work these conditions are doing inside you? Why do you want to persecute yourself with the question of where all this is coming from and where it is going? Since you know, after all, that you are in the midst of transitions and you wished for nothing so much as to change. If there is anything unhealthy in your reactions, just bear in mind that sickness is the means by which an organism frees itself from what is alien; so one must simply help it to be sick, to have its whole sickness and to break out with it, since that is the way it gets better."],
+    "5": ["Letters to a Young Poet", "1929", "Have patience with everything that remains unsolved in your heart. Try to love the questions themselves, like locked rooms and like books written in a foreign language. Do not now look for the answers. They cannot now be given to you because you could not live them. It is a question of experiencing everything. At present you need to live the question. Perhaps you will gradually, without even noticing it, find yourself experiencing the answer, some distant day."]
+  },
+  
+  "Rebecca Solnit": {
+    "1": ["A Field Guide to Getting Lost", "2005", "Leave the door open for the unknown, the door into the dark. That’s where the most important things come from, where you yourself came from, and where you will go."],
+    "2": ["A Field Guide to Getting Lost", "2005", "Getting lost was not a matter of geography so much as identity, a passionate desire, even an urgent need, to become no one and anyone, to shake off the shackles that remind you who you are, who others think you are."]
+  },
+  
+  "Confucius": {
+    "1": ["Analects", "6th Century BCE", "Do not be anxious when others do not understand you. Be anxious to understand others."]
+  },
+  
+  "Heraclitus": {
+    "1": ["Fragments", "5th Century BCE", "Time is a game played beautifully by children."],
+    "2": ["Fragments", "5th Century BCE", "No man ever steps in the same river twice, for it's not the same river and he's not the same man."],
+    "3": ["Fragments", "5th Century BCE", "The soul is dyed in the color of its thoughts."]
+  },
+  
+  "Fyodor Dostoyevsky": {
+    "1": ["Crime and Punishment", "1886", "To go wrong in one's own way is better than to go right in someone else's."],
+    "2": ["Crime and Punishment", "1886", "It takes something more than intelligence to act intelligently."],
+    "3": ["Crime and Punishment", "1886", "I used to analyze myself down to the last thread, used to compare myself with others, recalled all the smallest glances, smiles and words of those to whom I’d tried to be frank, interpreted everything in a bad light, laughed viciously at my attempts ‘to be like the rest’ –and suddenly, in the midst of my laughing, I’d give way to sadness, fall into ludicrous despondency and once again start the whole process all over again – in short, I went round and round like a squirrel on a wheel."],
+    "4": ["Crime and Punishment", "1886", "The fear of appearances is the first symptom of impotence."],
+    "5": ["Crime and Punishment", "1886", "Only to live, to live and live! Life, whatever it may be!"],
+    "6": ["The Double", "1846", "Sorrow is concealed in gilded palaces, and there’s no escaping it."],
+    "7": ["Notes from Underground", "1864", "To love is to suffer and there can be no love otherwise."],
+    "8": ["Notes from Underground", "1864", "I admit that twice two makes four is an excellent thing, but if we are to give everything its due, twice two makes five is sometimes a very charming thing too."]
+  },
+  
+  "Janna Levin": {
+    "1": ["A Madman Dreams of Turing Machines", "2006", "As the blood poured from his tattered heart into the open air and his brain suffocated, all those incomplete thoughts of Wittgenstein decayed with the dying neurons. Neural connections in the gray matter storing memories and ideas in their ordered configurations fired across the gaps, last gaps of mental life. Thoughts on Truth and Will were erased as flesh sloshed soft and limp against alabaster, no more than rotting human fruit."],
+    "2": ["A Madman Dreams of Turing Machines", "2006", "Sure one could argue the naturalist's case that the mind experiences an external reality in which it participates. But how can this account really satisfy us, Olga? One could equally well argue that all experiences is highly subjective, that the only thing we really have is the image, the smell, the taste, and all of our assertions about the universe are constructions of the human mind."],
+    "3": ["A Madman Dreams of Turing Machines", "2006", "We are all caught in the stream of a complicated legacy - a proof of the limits of human reason, a proof of our boundlessness. A declaration that were were down here on this crowded, lonely planet, a declaration that we mattered, we living clumps of ash, that each of us was once somebody, that we strove for what we could never have, that we could admit as much. That was us - funny and lousy and great all at once."]
+  },
+  
+  "Adam Phillips": {
+    "1": ["On Missing Out", "2012", "When we define ourselves by what we can recognize, by what we can comprehend- rather than, say, by what we can describe- we are continually under threat from what we are unwilling and/or unable to see. We are tyrannized by our blind spots, and by whatever it is about ourselves that we find unacceptable."],
+    "2": ["On Missing Out", "2012", "The past influences everything and dictates nothing."],
+    "3": ["On Missing Out", "2012", "To grow up is to discover what one is unequal to."],
+    "4": ["On Missing Out", "2012", "Greed is a way of avoiding making choices: if I have everything I don't have to choose what I want. And choosing what I want means giving up some pleasures for other pleasures."],
+    "5": ["On Missing Out", "2012", "Everything depends on what we would rather do than change."]
+  }
+          }
